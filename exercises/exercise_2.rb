@@ -6,7 +6,6 @@ puts "----------"
 
 @store1 = Store.find_by(id: 1)
 @store2 = Store.find_by(id: 2)
-@store3 = Store.find_by(id: 3)
 
 @store1.name = "Vernon"
 @store1.save
