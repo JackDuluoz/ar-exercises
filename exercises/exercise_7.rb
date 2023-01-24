@@ -14,3 +14,7 @@ user_store = gets.chomp
 puts "\nUser inputted: #{user_store}\n\n"
 
 store = Store.create(name: user_store)
+# puts store.valid?
+puts "Invalid Store."
+puts "Errors:\n\n"
+puts store.errors.full_messages
